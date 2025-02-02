@@ -11,7 +11,7 @@
 ## How to run
 
 You just need to download and extract the zip file in the release tab. <br>
-After you extract, go in your terminal and run the following command inside the extracted folder:
+After you extract, go inside your terminal and run the following command inside the extracted folder:
 
 ```sh
 .\pywal-discord -i
