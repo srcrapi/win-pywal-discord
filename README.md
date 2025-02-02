@@ -10,7 +10,7 @@
 
 ## How to run
 
-You just need to download and extract the zip file in the release tab
+You just need to download and extract the zip file in the release tab. <br>
 After you extract, go in your terminal and run the following command inside the extracted folder:
 
 ```sh
@@ -28,5 +28,5 @@ You can also use `-h` to see the help menu:
 .\pywal-discord -h
 ```
 
-You can add your themes to `$HOME\.config\pywal-discord` (not implemanted yet)
+You can add your themes to `$HOME\.config\pywal-discord` (not implemanted yet). <br>
 To use the themes simply call `pywal-discord -t <theme_name>`.
