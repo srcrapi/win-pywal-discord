@@ -179,9 +179,7 @@ impl Theme {
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-
-    // let username = env::var("USERNAME").expect("Couldn't get the environment user.");
-    let username = String::from("rafa1");
+    let username = env::var("USERNAME").expect("Couldn't get the environment user.");
 
     let mut theme = Theme {
         theme_name: String::from("default"),
