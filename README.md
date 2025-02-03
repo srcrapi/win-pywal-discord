@@ -28,5 +28,5 @@ You can also use `-h` to see the help menu:
 .\pywal-discord -h
 ```
 
-You can add your themes to `$HOME\.config\pywal-discord` (not implemanted yet). <br>
+You can add your themes to `$HOME\.config\pywal-discord` (not implemented yet). <br>
 To use the themes simply call `pywal-discord -t <theme_name>`.
