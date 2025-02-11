@@ -179,13 +179,13 @@ impl Theme {
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let username = env::var("USERNAME").expect("Couldn't get the environment user.");
+    let user_path = env::var("USERPROFILE").expect("Couldn't get the environment user.");
 
     let mut theme = Theme {
         theme_name: String::from("default"),
-        vencord_path: format!(r"C:\Users\{}\AppData\Roaming\Vencord\themes", username),
-        pywal_discord_path: format!(r"C:\Users\{}\.config\pywal-discord", username),
-        pywal_colors: format!(r"C:\Users\{}\.cache\wal\colors.css", username),
+        vencord_path: format!(r"{}\AppData\Roaming\Vencord\themes", user_path),
+        pywal_discord_path: format!(r"{}\.config\pywal-discord", user_path),
+        pywal_colors: format!(r"{}\.cache\wal\colors.css", user_path),
     };
 
     match args.get(1).map(|arg| Args::from_str(arg.as_str())) {
